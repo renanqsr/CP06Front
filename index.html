@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top Front-end Books</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <header class="text-white shadow-md bg-blue-900 border-b-4 border-black ">
+    <div class="max-w-6xl mx-auto px-4 py-8">
+      <h1 class="text-2xl md:text-4xl font-bold text-center mb-4">Top Front-end Books</h1>
+      <nav class="flex justify-center gap-3 flex-wrap">
+        <a href="#about" class="px-4 py-2 rounded-full bg-white/10 ">Sobre</a>
+        <a href="#books" class="px-4 py-2 rounded-full bg-white/10 ">Livros</a>
+        <a href="#contact" class="px-4 py-2 rounded-full bg-white/10 ">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-4 py-8">
+    <section id="about" class="bg-white rounded-2xl border-2 p-6 md:p-8 mb-8">
+      <div class="grid md:grid-cols-2 gap-6 items-center">
+        <div>
+          <h2 class="text-2xl md:text-3xl font-bold mb-3">Sobre a coleção</h2>
+          <p class="text-black">Uma lista simples com livros essenciais para aprender HTML, CSS,
+            JavaScript e desenvolvimento front-end.</p>
+        </div>
+        <div class="rounded-2xl border border-black-600 overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=800&q=80"
+            alt="Livros na estante" class="w-full h-64 object-cover">
+        </div>
+      </div>
+    </section>
+
+    <section id="books" class="bg-white rounded-2xl border-2 p-6 md:p-8 mb-8">
+      <h2 class="text-2xl md:text-3xl font-bold mb-5">Livros em destaque</h2>
+      <div id="book-list" class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3"></div>
+    </section>
+
+    <section id="contact" class="bg-white rounded-2xl border-2 p-6 md:p-8">
+      <h2 class="text-2xl md:text-3xl font-bold mb-3">Contato</h2>
+      <p>Se quiser sugerir outro livro, envie um e-mail para</p>
+         <a
+          href="mailto:frontbooks@example.com"
+          class="font-bold underline">frontbooks@example.com</a>.</p>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
